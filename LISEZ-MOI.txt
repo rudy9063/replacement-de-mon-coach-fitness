@@ -1,25 +1,5 @@
-MON COACH FITNESS — VERSION ANDROID (PWA)
-=========================================
-
-Fichiers
-- index.html : l’application complète, avec le programme repris du fichier Excel.
-- manifest.webmanifest et service-worker.js : permettent l’installation comme application web (PWA).
-- icônes : icône de l’application.
-- Mon_Coach_Fitness_Beige_Sauge.html : version autonome à ouvrir dans un navigateur.
-
-IMPORTANT : ce ZIP n'est pas un APK Android. Pour une icône installable via Chrome, il faut héberger le dossier PWA sur une adresse HTTPS.
-
-Méthode simple avec GitHub Pages (gratuit)
-1. Depuis un ordinateur, connecte-toi ou crée un compte GitHub.
-2. Crée un nouveau dépôt public (par exemple mon-coach-fitness).
-3. Décompresse ce ZIP et téléverse tous les fichiers contenus dans le dossier Mon_Coach_Fitness_Android_PWA à la racine du dépôt.
-4. Dans le dépôt, ouvre Settings > Pages, sélectionne Deploy from a branch, puis la branche main et le dossier /(root). Enregistre.
-5. Attends que GitHub Pages affiche l’adresse HTTPS de ton site.
-6. Ouvre cette adresse sur ton Android avec Chrome.
-7. Dans Chrome, touche ⋮ puis « Installer l’application » ou « Ajouter à l’écran d’accueil ».
-
-Utilisation directe
-- Pour tester rapidement, ouvre le fichier HTML autonome dans Chrome. Certaines fonctions d'installation hors ligne ne sont disponibles qu'après hébergement HTTPS.
-- Les séances, notes, poids et historique sont stockés localement dans le navigateur/appareil. Exporte régulièrement tes données depuis Mes progrès.
-- Les données locales du fichier HTML et celles de la version hébergée sont séparées; l'historique ne se synchronise pas automatiquement entre appareils.
-- L'application n'est pas un APK natif. La méthode PWA ci-dessus l'ajoute à l'écran d'accueil et permet une expérience proche d'une application.
+MON COACH FITNESS — VERSION V5
+1. Remplacer les fichiers du dépôt GitHub Pages par ceux de ce dossier.
+2. Commit changes.
+3. Attendre quelques minutes puis ouvrir le site et actualiser.
+Cette version contient Session 1 lundi, Session 2 mercredi, Session 3 vendredi, course intense mardi/jeudi et course lente dimanche.
