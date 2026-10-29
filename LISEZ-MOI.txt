@@ -1,16 +1,12 @@
-MON COACH FITNESS — VERSION CORRIGÉE V7
+MON COACH FITNESS — V10 CORRIGÉE
 
-Mise en ligne sur GitHub Pages :
-1. Décompressez ce ZIP sur votre appareil.
-2. Ouvrez le dépôt GitHub de l'application.
-3. Remplacez les anciens fichiers du site par les fichiers contenus dans ce dossier (notamment index.html, service-worker.js, manifest.webmanifest et les icônes).
-4. Validez/committez les modifications.
-5. Attendez la fin du déploiement GitHub Pages, puis rechargez le site.
+Corrections :
+- Restaure les exercices officiels absents de la liste enregistrée dans le navigateur, sans remplacer les exercices existants ni supprimer les exercices personnalisés.
+- Après « Enregistrer la séance », ouvre automatiquement « Mes progrès » pour afficher l'historique actualisé.
 
-Corrections incluses :
-- Priorité aux données les plus récentes (V7) au chargement, plutôt qu'à un ancien état V6.
-- Rafraîchissement immédiat de la séance lorsque le jour ou la date change.
-- Message de confirmation à l'écran après changement de date/jour.
-- Synchronisation visuelle entre onglets ouverts de la même application sur le même navigateur.
-
-À savoir : les données enregistrées dans le navigateur restent locales à cet appareil/navigateur. Exportez vos données depuis « Mes progrès » avant de remplacer le site, par précaution. Cette synchronisation entre onglets ne synchronise pas automatiquement deux appareils différents.
+Installation :
+1. Faites d'abord un export des données depuis « Mes progrès ».
+2. Décompressez ce ZIP.
+3. Remplacez les fichiers du dépôt GitHub par ceux du ZIP, notamment index.html, service-worker.js, manifest.webmanifest et les icônes.
+4. Validez les changements (Commit changes) et attendez la fin de GitHub Pages.
+5. Fermez les anciens onglets du site, puis rouvrez-le. Les données sont conservées localement dans le navigateur ; l'export préalable est recommandé.
