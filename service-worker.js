@@ -1,4 +1,3 @@
-
 const CACHE_NAME = 'mcf-v12';
 const APP_PREFIX = 'mcf-';
 
